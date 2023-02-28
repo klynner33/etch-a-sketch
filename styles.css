@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .container {
     height: 380px;
     width: 380px;
@@ -11,13 +12,16 @@
     flex-wrap: wrap;
     border: 30px solid red;
     border-radius: 5px;
-    margin: 0;
+    margin: 20px auto;
 }
 
 .squares {
     height: 20px;
     width: 20px;
     border: 1px solid black;
-    flex 1;
     margin: 0;
+}
+
+.squares:hover {
+    background-color: rgb(63, 62, 62);
 }
