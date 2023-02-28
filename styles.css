@@ -2,3 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    height: 192px;
+    width: 192px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 30px solid red;
+    border-radius: 5px;
+}
+
+.squares {
+    height: 10px;
+    width: 10px;
+    /* border: 1px solid black; */
+    flex 1;
+}
