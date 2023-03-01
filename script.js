@@ -16,18 +16,19 @@ for (let i = 0; i < numOfSquares; i++) {
             squares.style.backgroundColor = "black";
         });
     });
+
     colorBtn.addEventListener("click", () => {
         squares.addEventListener("mouseover", () => {    
-            squares.style.backgroundColor = "yellow";
+            squares.style.backgroundColor = generateRandomColor();
         });
     });
 }
 
-function randomColor() {
-
+function generateRandomColor() {
+    let hex = "#" + Math.floor(Math.random() * 16777215).toString(16);
+    return hex;
 }
 
 resetBtn.addEventListener("click", function(e) {
     location.reload();
 });
-
