@@ -5,7 +5,15 @@ const blackBtn = document.querySelector("#black-btn");
 const colorBtn = document.querySelector("#color-btn");
 
 
-let numOfSquares = 256;
+
+
+function gridSize(num) {
+    let totalSquares = num * num;
+    return totalSquares;
+}
+
+console.log(gridSize(16));
+let numOfSquares = gridSize();
 for (let i = 0; i < numOfSquares; i++) {
     const squares = document.createElement("div");
     squares.classList.add("squares");
