@@ -18,7 +18,7 @@
 .squares {
     height: 20px;
     width: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0;
     cursor: pointer;
 }
