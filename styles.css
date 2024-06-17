@@ -16,9 +16,8 @@
 }
 
 .squares {
-    height: 20px;
-    width: 20px;
-    /* border: 1px solid black; */
+    height: 19px;
+    width: 19px;
     margin: 0;
     cursor: pointer;
 }
